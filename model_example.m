@@ -5,11 +5,18 @@ load model_default_parameters.mat;
 % Storage of initial conditions
 A0 = zeros(8,1);
 
-% Initial conditions
+% Initial conditions - testing
 x00 = 1*10^5;
+% x00 = 0;
 x10 = 2.5*10^6;
+% x10 = 0;
 x20 = 6.4*10^11;
+% x20 = 0;
+% y00 = 7.4*10^4;
 y00 = 1;
+% y00 = 0;
+% y00 = 1*10^5;
+% y10 = 10^6;
 y10 = 0;
 y20 = 0;
 a0 = 810;
@@ -227,11 +234,18 @@ load model_default_parameters.mat;
 % Storage of initial conditions
 A0 = zeros(8,1);
 
-% Initial conditions
+% Initial conditions - testing
 x00 = 1*10^5;
+% x00 = 0;
 x10 = 2.5*10^6;
+% x10 = 0;
 x20 = 6.4*10^11;
+% x20 = 0;
+% y00 = 7.4*10^4;
 y00 = 1;
+% y00 = 0;
+% y00 = 1*10^5;
+% y10 = 10^6;
 y10 = 0;
 y20 = 0;
 a0 = 810;
@@ -283,9 +297,9 @@ VAF = y2./(x2+y2);
 
 %% Plots
 % Cell plots
-fig1 = figure(1);
-t1 = tiledlayout(2,2);
-xlabel(t1,'$t$/years','fontsize',24,'interpreter','latex');
+fig3 = figure(3);
+t3 = tiledlayout(2,2);
+xlabel(t3,'$t$/years','fontsize',24,'interpreter','latex');
 % fig1.Position = [250 50 1600 1300];
 nexttile;
 hold on;
@@ -356,9 +370,9 @@ xlim([0,60]);
 set(gca,'fontsize',24);
 
 % Cell plots
-fig2 = figure(2);
-t2 = tiledlayout(2,3);
-xlabel(t2,'$t$/years','fontsize',24,'interpreter','latex');
+fig4 = figure(4);
+t4 = tiledlayout(2,3);
+xlabel(t4,'$t$/years','fontsize',24,'interpreter','latex');
 % fig1.Position = [250 50 1600 1300];
 nexttile;
 hold on;
