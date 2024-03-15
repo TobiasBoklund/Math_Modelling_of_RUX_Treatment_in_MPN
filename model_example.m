@@ -5,18 +5,11 @@ load model_default_parameters.mat;
 % Storage of initial conditions
 A0 = zeros(8,1);
 
-% Initial conditions - testing
+% Initial conditions
 x00 = 1*10^5;
-% x00 = 0;
 x10 = 2.5*10^6;
-% x10 = 0;
 x20 = 6.4*10^11;
-% x20 = 0;
-% y00 = 7.4*10^4;
 y00 = 1;
-% y00 = 0;
-% y00 = 1*10^5;
-% y10 = 10^6;
 y10 = 0;
 y20 = 0;
 a0 = 810;
@@ -234,18 +227,11 @@ load model_default_parameters.mat;
 % Storage of initial conditions
 A0 = zeros(8,1);
 
-% Initial conditions - testing
+% Initial conditions
 x00 = 1*10^5;
-% x00 = 0;
 x10 = 2.5*10^6;
-% x10 = 0;
 x20 = 6.4*10^11;
-% x20 = 0;
-% y00 = 7.4*10^4;
 y00 = 1;
-% y00 = 0;
-% y00 = 1*10^5;
-% y10 = 10^6;
 y10 = 0;
 y20 = 0;
 a0 = 810;
